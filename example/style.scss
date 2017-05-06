@@ -1,0 +1,7 @@
+$config: getconfig();
+$colors: map-get($config, "colors");
+$color-text: map-get($colors, "text");
+
+body {
+  color: $color-text;
+}
