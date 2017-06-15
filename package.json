@@ -1,6 +1,6 @@
 {
   "name": "js-to-sass-types",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert JavaScript types to node-sass types",
   "homepage": "https://github.com/bancek/js-to-sass-types",
   "author": {

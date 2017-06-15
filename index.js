@@ -8,13 +8,13 @@ function convert (obj) {
   if (obj == null) {
     return sass.types.Null.NULL;
   } else if (_.isString(obj)) {
-    if (/^#[0-9a-f]{3}$/.test(obj)) {
+    if (/^#[0-9a-f]{3}$/i.test(obj)) {
       var r = parseInt(obj[1] + obj[1], 16);
       var g = parseInt(obj[2] + obj[2], 16);
       var b = parseInt(obj[3] + obj[3], 16);
 
       return new sass.types.Color(r, g, b);
-    } else if (/^#[0-9a-f]{6}$/.test(obj)) {
+    } else if (/^#[0-9a-f]{6}$/i.test(obj)) {
       var r = parseInt(obj[1] + obj[2], 16);
       var g = parseInt(obj[3] + obj[4], 16);
       var b = parseInt(obj[5] + obj[6], 16);

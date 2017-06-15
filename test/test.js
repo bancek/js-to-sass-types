@@ -8,7 +8,7 @@ describe('convert', function () {
       colors: {
         bodyBg: '#fff',
         text: '#333',
-        border: '#aabbcc',
+        border: '#aaBBcc',
       },
       borderRadius: '15.5px',
       width: '50%',
